@@ -70,6 +70,3 @@ use GetAttribute;
         return $this->time;
     }
 }
-$get = new Get_Yahoo_Data();
-//var_dump($get->decode_json_object());
-var_dump($get->get_price());
